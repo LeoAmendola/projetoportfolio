@@ -42,8 +42,6 @@
     top: -40px;
     left: -50px;
   }
-
-
 }
 
 @media (max-width: 800px) {
@@ -64,8 +62,7 @@
   }
 }
 
-@media (max-width: 400px) {
-  
+@media (max-width: 500px) {
   .intro {
     grid-template-columns: 1fr;
     align-items: center;
@@ -76,12 +73,13 @@
   }
 
   .intro h1::before {
-    top:-10px;
+    top: -10px;
     /* left: 40%; */
   }
 
   .intro img {
-    display: none;
+    order: 0;
+    place-self: center;
   }
 
   .intro p {
